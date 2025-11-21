@@ -1,4 +1,3 @@
-readmemarkdown
 ## Для запуска:
 
 - В `tests/pages/mf_function_page.py` в переменную `function_url` вставьте url потока на деве с названием `aut_func_flow`
