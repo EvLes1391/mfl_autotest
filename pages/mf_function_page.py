@@ -1,0 +1,10 @@
+
+function_url = 'example.com'
+FUNCTION_NODE = '//*[text()="Функции" and @class="_label_5e7rl_77"]'
+FUNCTION_INPUT = 'div[contenteditable="true"][role="textbox"]'
+SAVE_BUTTON = '//button[text()="Сохранить"]'
+PLAY_BUTTON = '//button[@title="Запустить" and contains(@class, "Button_view_primary")]'
+OUTPUT_SAMPLE = 'div._previewData_1xfqd_10'
+VIEW_INPUT_OUTPUT_DATA = '//button[.//span[text()="Просмотр входных и выходных данных"]]'
+OUTPUT_DATA = '//label[.//span[text()="Выходные данные"]]'
+TABLE_OUTPUT = 'table.TanstackTable-module__table___0wIGc'
