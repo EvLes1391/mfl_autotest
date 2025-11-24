@@ -50,11 +50,6 @@ def run_function_test(page: Page):
                 row = rows.nth(i)
                 cell_text = row.locator('td').nth(16).text_content()
                 if expected_value in cell_text:
-                    allure.attach(
-                        f"Найдено значение {expected_value} в строке {i+1}",
-                        name="Успешная проверка",
-                        attachment_type=allure.attachment_type.TEXT
-                    )
                     assert expected_value in cell_text
                     return
             assert False, f"Функция '{function_code}' не пашет"
