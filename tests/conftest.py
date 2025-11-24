@@ -12,7 +12,6 @@ def login_leskov(page: Page):
         page.fill('#password', password)
         page.click('#kc-login')
         page.wait_for_url(function_url)
-        return page
     return _login
 
 @pytest.fixture
